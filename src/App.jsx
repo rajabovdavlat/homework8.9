@@ -1,13 +1,18 @@
 import MainLayout from "./layouts/MainLayout";
 
+
 // pages
-import { About, Home, Recipe, Recipes } from "./pages"
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Recipes from "./pages/Recipes";
+import Recipe from "./pages/Recipe";
+
 
 // main layout
 const App = () => {
   const routes = createBrowserRouter([
     {
-      path: './',
+      path: '/',
       element: <MainLayout />,
       children: [
         {
@@ -15,15 +20,15 @@ const App = () => {
           element: <Home />,
         },
         {
-          path: "/about",
+          path: "about",
           element: <About />,
         },
         {
-          path: "/recipes",
+          path: "recipes",
           element: <Recipes />,
         },
         {
-          path: "/recipe/:id",
+          path: "recipe/:id",
           element: <Recipe />,
         }
       ]
