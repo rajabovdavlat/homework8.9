@@ -1,5 +1,8 @@
-import { createRoot } from "react-dom/client";
-import "./index.css";
-import App from "./App.jsx";
+export { default as Home } from "./Home";
+export { default as About } from "./About";
+export { default as Recipe } from "./Recipe";
+export { default as Recipes } from "./Recipes";
 
-createRoot(document.getElementById("root")).render(<App />);
+
+
+
