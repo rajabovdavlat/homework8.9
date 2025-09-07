@@ -1,6 +1,5 @@
-import Home from "./Home";
-import About from "./About";
-import Recipe from "./Recipe";
-import Recipes from "./Recipes";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
 
-export { Home, About, Recipe, Recipes };
+createRoot(document.getElementById("root")).render(<App />);

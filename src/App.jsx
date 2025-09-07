@@ -1,5 +1,5 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
-
 
 // pages
 import Home from "./pages/Home";
@@ -7,12 +7,10 @@ import About from "./pages/About";
 import Recipes from "./pages/Recipes";
 import Recipe from "./pages/Recipe";
 
-
-// main layout
 const App = () => {
   const routes = createBrowserRouter([
     {
-      path: '/',
+      path: "/",
       element: <MainLayout />,
       children: [
         {
@@ -30,11 +28,12 @@ const App = () => {
         {
           path: "recipe/:id",
           element: <Recipe />,
-        }
-      ]
-    }
-  ])
-  return <RouterProvider router={routes} />;
-}
+        },
+      ],
+    },
+  ]);
 
-export default App
+  return <RouterProvider router={routes} />;
+};
+
+export default App;

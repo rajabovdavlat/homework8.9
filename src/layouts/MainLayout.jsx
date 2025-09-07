@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
   return (
-    <main>
+    <main style={{ padding: "2rem" }}>
       <Outlet />
     </main>
   );

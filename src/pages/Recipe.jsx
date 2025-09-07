@@ -1,7 +1,5 @@
 const Recipe = () => {
-  return (
-    <div>Recipe</div>
-  )
-}
+  return <div>Single Recipe Page</div>;
+};
 
-export default Recipe
+export default Recipe;
