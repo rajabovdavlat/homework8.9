@@ -1,11 +1,39 @@
-.footer{
-    padding: 5.75rem 0;
-    background-color: #E9EDE8;
+.footer__wrapp {
+  position: relative;
+  user-select: none;
+  text-align: center;
+  padding: 120px 0;
+  background-color: #e9ede8;
+  border-radius: 16px;
 }
 
 .footer__wrapp {
-  text-align: center;
+  position: relative;
+  overflow: visible; 
 }
+
+.footer__wrapp {
+  position: relative;
+  overflow: hidden; 
+}
+
+.footer__icon {
+  position: absolute;
+  top: 53%;
+  transform: translateY(-50%);
+  width: 314px;
+  height: auto;
+  pointer-events: none;
+}
+
+.footer__icon--left {
+  left: -76px; 
+}
+
+.footer__icon--right {
+  right: -60px; 
+}
+
 
 .footer__title {
   font-weight: var(--font-weight-extrabold);
@@ -16,12 +44,31 @@
   margin-bottom: 0.75rem;
 }
 
-
 .footer__desc {
   font-weight: var(--font-weight-medium);
-  font-size: 1.25rem; /* можно оставить */
+  font-size: 20px; 
   line-height: var(--line-height-loose);
   letter-spacing: -0.4%;
   color: var(--color-neutral-600);
   margin-bottom: 2.5rem;
+}
+
+.footer__made {
+  user-select: none;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  color: var(--color-neutral-900);
+}
+
+.footer__nav {
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 0;
+}
+
+.footer__social {
+  display: flex;
+  gap: 24px;
 }
