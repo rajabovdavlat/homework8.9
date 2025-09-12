@@ -38,6 +38,20 @@ body {
     font-weight: 500;
 }
 
+.main-content {
+  flex: 1; /* занимает всё свободное место между Header и Footer */
+  padding: 6rem 2rem 2rem; /* сверху отступ для фиксированного Header */
+}
+
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+
 #root {
     display: flex;
     flex-direction: column;

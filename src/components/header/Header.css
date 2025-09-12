@@ -1,0 +1,29 @@
+.header{
+    padding: 32px 0px;
+}
+.header-nav__wrapp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav{
+    display: flex;
+    gap: 40px;
+}
+
+.header__link {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-preset-7);
+  line-height: var(--line-height-loose);
+  color: var(--color-neutral-900);
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.header__link:hover {
+  border-bottom-color: var(--color-orange-500);
+}
+
+

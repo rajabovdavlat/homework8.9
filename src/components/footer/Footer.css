@@ -1,0 +1,27 @@
+.footer{
+    padding: 5.75rem 0;
+    background-color: #E9EDE8;
+}
+
+.footer__wrapp {
+  text-align: center;
+}
+
+.footer__title {
+  font-weight: var(--font-weight-extrabold);
+  font-size: var(--font-size-preset-2);
+  line-height: 100%;
+  letter-spacing: -3%;
+  color: var(--color-neutral-900);
+  margin-bottom: 0.75rem;
+}
+
+
+.footer__desc {
+  font-weight: var(--font-weight-medium);
+  font-size: 1.25rem; /* можно оставить */
+  line-height: var(--line-height-loose);
+  letter-spacing: -0.4%;
+  color: var(--color-neutral-600);
+  margin-bottom: 2.5rem;
+}
