@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className='footer'>
       <div className='container'>
         <div className='footer__wrapp'>
-          {/* Левая иконка */}
+          
           <img
             src='/images/pattern-fork.svg'
             alt='Left decoration'
@@ -20,7 +20,6 @@ const Footer = () => {
             <button className='btn'>Browse recipes</button>
           </div>
 
-          {/* Правая иконка */}
           <img
             src='/images/pattern-knife.svg'
             alt='Right decoration'

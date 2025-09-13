@@ -29,7 +29,7 @@ const Header = () => {
             </Link>
           </nav>
 
-          {/* button on the right */}
+          {/* btn on the right */}
           <div className='header__actions'>
             <button className='btn'>Browse recipes</button>
           </div>
@@ -65,7 +65,7 @@ const Header = () => {
               Recipes
             </Link>
 
-            {/* Кнопка Browse recipes */}
+            {/* btn Browse recipes */}
             <button className='header__modal-btn' onClick={toggleMenu}>
               Browse recipes
             </button>

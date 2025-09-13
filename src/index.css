@@ -39,8 +39,8 @@ body {
 }
 
 .main-content {
-  flex: 1; /* занимает всё свободное место между Header и Footer */
-  padding: 6rem 2rem 2rem; /* сверху отступ для фиксированного Header */
+  flex: 1; 
+  padding: 6rem 2rem 2rem; 
 }
 
 
