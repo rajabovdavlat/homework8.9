@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import MainLayout from "./layouts/MainLayout";
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
 import Recipes from "./pages/Recipes";
 
 

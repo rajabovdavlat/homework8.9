@@ -67,6 +67,7 @@
 
 
 .footer__title {
+  font-family: "Nunito";
   font-weight: var(--font-weight-extrabold);
   font-size: var(--font-size-preset-2);
   line-height: 100%;
